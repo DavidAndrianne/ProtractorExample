@@ -1,0 +1,13 @@
+// In order to setup a protactor test framework we need the following commands : 
+npm install -g protractor
+
+# Launching the Selenium test server
+------------------------------------
+webdriver-manager update // Get latest webdriver version
+webdriver-manager start // Then launch at default address : http://localhost:4444/wd/hub/static/resource/hub.html
+
+# Running the tests via cmd line
+--------------------------------
+// IN A SEPERATE COMMANDLINE WINDOW!!! : 
+cd ./Tests // Go to tests directory
+protractor conf.js // Launch specs specified within this conf.js file, watch your console output!
