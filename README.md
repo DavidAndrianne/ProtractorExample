@@ -4,3 +4,4 @@ This is a simple sample repo for testing a configuration of a Protractor-framewo
 
 # Dependencies
 - Protractor : http://www.protractortest.org/#/
+- NodeJS tools for Visual Studio : https://www.visualstudio.com/vs/node-js/
